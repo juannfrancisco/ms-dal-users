@@ -1,0 +1,12 @@
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/entities/User.java
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/config/WebSecurity.java
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/repositories/RoleRepository.java
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/services/UserServices.java
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/App.java
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/entities/Role.java
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/controllers/RoleController.java
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/services/RoleServices.java
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/controllers/UserController.java
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/repositories/PermissionRepository.java
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/repositories/UserRepository.java
+/Users/juanfrancisco/dev/personal/examples/graphql/ms-dal-users/src/main/java/cl/zenta/example/advocate/entities/Permission.java

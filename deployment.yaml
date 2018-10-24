@@ -1,0 +1,32 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: ms-dal-users
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ms-dal-users
+  template:
+    metadata:
+      labels:
+        app: ms-dal-users
+    spec:
+      containers:
+      - name: ms-dal-users
+        image: gcr.io/env-microservices/ms-dal-users:latest
+        env:
+        - name: project-port
+          value: "8081"
+        - name: project-jdbc-url
+          value: "jdbc:mysql://localhost:3306/users?useSSL=false"
+        - name: project-jdbc-username
+          value: "root"
+        - name: project-jdbc-password
+          value: "my-secret-pw"
+        - name: project-jdbc-dialect
+          value: "org.hibernate.dialect.MySQL5InnoDBDialect"
+        - name: project-jdbc-max-pool
+          value: "5"
+        ports:
+        - containerPort: 8081

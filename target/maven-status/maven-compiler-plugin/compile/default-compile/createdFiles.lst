@@ -1,0 +1,12 @@
+cl/zenta/example/advocate/entities/Role.class
+cl/zenta/example/advocate/controllers/UserController.class
+cl/zenta/example/advocate/repositories/RoleRepository.class
+cl/zenta/example/advocate/entities/User.class
+cl/zenta/example/advocate/config/WebSecurity.class
+cl/zenta/example/advocate/repositories/UserRepository.class
+cl/zenta/example/advocate/services/RoleServices.class
+cl/zenta/example/advocate/entities/Permission.class
+cl/zenta/example/advocate/repositories/PermissionRepository.class
+cl/zenta/example/advocate/App.class
+cl/zenta/example/advocate/controllers/RoleController.class
+cl/zenta/example/advocate/services/UserServices.class
