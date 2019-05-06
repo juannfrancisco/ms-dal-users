@@ -10,11 +10,19 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/")
+
 public class HomeController {
 
-    @RequestMapping(method = RequestMethod.GET)
-    public ResponseEntity<?> findAll(){
+
+    @RequestMapping(method = RequestMethod.GET, path = "/")
+
+    public ResponseEntity<?> root(){
+        return ResponseEntity.ok().build();
+    }
+
+
+    @RequestMapping(method = RequestMethod.GET, path = "/api")
+    public ResponseEntity<?> rootAPI(){
         return ResponseEntity.ok().build();
     }
 }
